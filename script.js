@@ -50,5 +50,7 @@ function vr_function(){
 }
 
 $(window).load(function(){
-  $("#rec_btn").click(vr_function);
+  $("#rec_btn").click(function(){
+    vr_function();
+  });
 });
