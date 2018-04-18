@@ -1,0 +1,24 @@
+h1 {
+  font-family: 'Coiny', cursive;
+}
+
+header {
+  margin: 30px 0px;
+  padding: 32px 0px 16px 40px;
+}
+
+article, footer {
+  padding: 0 40px 0 40px;
+}
+
+section {
+  margin: 10px 0 20px 0;
+}
+
+table {
+  table-layout: fixed;
+}
+
+table, li {
+  font-size: 18px;
+}

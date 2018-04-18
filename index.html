@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="w1th=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Text Simplifier</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-light">
+  <main role="main" class="container">
+    <header class="bg-dark rounded">
+      <h1 class="text-white font-weight-bold display-4">Text Simplifier</h1>
+    </header>
+
+    <article>
+      <section>
+        <h1 class="text-dark">Let's make your text simple!</h1>
+        <form class="input-group">
+          <input class="form-control form-control-lg rounded" type="text" placeholder="Please input your text!">
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-outline-dark btn-lg">
+                <i class="fas fa-microphone fa-lg"></i>
+            </button>
+            <button type="button" class="btn btn-dark btn-lg">Simplify!</button>
+          </span>
+        </form>
+      </section>
+
+      <section>
+        <table class="table table-hover">
+          <thead>
+            <tr class="table-light">
+              <th scope="col">Input</th>
+              <th scope="col">Simplified text</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>hoge</td>
+              <td>fuga</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h1 class="text-dark">Examples of input sentence</h1>
+        <ul class="list-unstyled">
+          <li>寝坊したため、講義に遅刻した。</li>
+          <li>あの銀行は、一週間前に強盗に入られたって噂だよ。</li>
+          <li>審美眼を身につけるには長年の経験が不可欠だ。</li>
+          <li>その政策の結果物価は大幅に上昇した。</li>
+          <li>事業は順調に進んでいる。</li>
+        </ul>
+      </section>
+    </article>
+
+    <footer>
+      <small class="text-muted">&copy;2018- , Natural Language Processing Lab., Nagaoka University of Technology.</small>
+    </footer>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
