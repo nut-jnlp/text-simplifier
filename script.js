@@ -48,3 +48,7 @@ function vr_function(){
   flag_speech = false;
   recognition.start();
 }
+
+$(window).load(function(){
+  $("#rec_btn").click(vr_function);
+});
