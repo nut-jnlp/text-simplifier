@@ -49,6 +49,7 @@ function vr_function(){
   recognition.start();
 }
 $(function(){
+  $("#input_text").focus();
   $("#rec_btn").click(function(){
     vr_function();
   });
