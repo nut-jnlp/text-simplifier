@@ -35,7 +35,6 @@ function vr_function(){
         var simplified_text = data["normal"];
         var prepend_html = "<tr><td>" + recognized_text + "</td><td>" + simplified_text + "</td></tr>";
         $(prepend_html).hide().prependTo("#talk_log tbody").fadeIn("slow");
-        index++;
         var msg = new SpeechSynthesisUtterance(simplified_text);
         msg.lang = 'ja-JP';
         window.speechSynthesis.speak(msg);
