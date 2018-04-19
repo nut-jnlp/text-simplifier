@@ -25,7 +25,7 @@ function vr_function(){
     var results = event.results;
     for(var i = event.resultIndex; i < results.length; i++){
       var recognized_text = results[i][0].transcript;
-      $.ajax("/text-simplifier/translate",
+      $.ajax("http://box.jnlp.org/text-simplifier/translate",
       {
         type: 'POST',
         contentType: 'application/json',
